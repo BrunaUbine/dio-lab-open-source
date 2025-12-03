@@ -1,27 +1,102 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Profiles README DIO</span>
-</h1>
+# 🧑‍💻 Profiles README — Projeto DIO
 
-## Sobre o Projeto
-Página desenvolvida para fins didáticos para o curso **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/). Lembre-se de que Markdown é mais voltado para a documentação e apresentação de texto formatado, enquanto a remoção de bugs normalmente envolve a compreensão detalhada do código e o uso de ferramentas de desenvolvimento adequadas à linguagem de programação específica.
+Projeto desenvolvido para fins didáticos no curso **"Contribuindo em um Projeto Open Source no GitHub"** da Digital Innovation One (DIO).  
+O objetivo deste repositório é praticar colaboração em projetos open source, melhorar documentação e entender o fluxo de contribuição no GitHub.
 
-[![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://digitalinnovationone.github.io/dio-lab-open-source/)
+---
 
-```
+## 📄 Sobre o Projeto
+
+Este projeto contém uma página simples criada com **HTML, CSS e JavaScript**, utilizada para demonstrar como:
+
+- Criar e atualizar documentação em Markdown  
+- Organizar arquivos dentro de um repositório  
+- Abrir issues e pull requests  
+- Contribuir com melhorias em um projeto open source  
+
+> **Importante:** Markdown é ideal para documentação, mas a correção de bugs e melhorias de código deve ser feita diretamente nos arquivos HTML/CSS/JS.
+
+---
+
+## 🖥️ Preview
+
+Para visualizar o projeto:
+
+- Abra o arquivo `docs/index.html` no navegador  
+ou  
+- Acesse via GitHub Pages (caso habilitado):
+
+https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/
+
+
+---
+
+## 📁 Estrutura do Projeto
+
 docs/
 ├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
+│ ├── css/
+│ │ └── styles.css
+│ └── js/
+│ └── scripts.js
 ├── favicon.ico
 ├── index.html
 └── README.md
-```
 
-## Tecnologias
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
+
+### ✔ Descrição dos arquivos
+
+- **index.html** — Página principal do projeto  
+- **styles.css** — Arquivo de estilos  
+- **scripts.js** — Arquivo de interação e comportamento  
+- **favicon.ico** — Ícone exibido no navegador  
+- **README.md** — Documentação do repositório  
+
+---
+
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+    ```
+
+2. Acesse a pasta principal:
+
+    ```bash
+    cd NOME_DO_REPOSITORIO/docs
+    ```
+
+3. Abra o arquivo:
+
+    ```bash
+    # Abra no navegador (duplo clique) ou arraste o arquivo)
+    index.html
+    ```
+
+## 🤝 Como Contribuir
+
+1. Faça um **fork** deste repositório.
+
+2. Crie uma nova branch para sua alteração:
+
+    ```bash
+    git checkout -b feature/minha-feature
+    ```
+
+3. Realize suas alterações no código.
+
+4. Faça o commit das mudanças:
+
+    ```bash
+    git commit -m "Descrição clara da alteração"
+    ```
+
+5. Envie sua branch para o repositório remoto:
+
+    ```bash
+    git push origin feature/minha-feature
+    ```
+
+6. Abra um **Pull Request** no GitHub.
